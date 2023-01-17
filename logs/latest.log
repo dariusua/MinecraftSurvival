@@ -1,0 +1,29 @@
+[18:12:04] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:12:04] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_351]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_351]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_351]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_351]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[18:12:06] [Server thread/INFO]: Loading properties
+[18:12:06] [Server thread/INFO]: Default game type: SURVIVAL
+[18:12:06] [Server thread/INFO]: Generating keypair
+[18:12:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:12:07] [Server thread/INFO]: Preparing level "world"
+[18:12:07] [Server thread/INFO]: Preparing start region for level 0
+[18:12:08] [Server thread/INFO]: Preparing spawn area: 24%
+[18:12:09] [Server thread/INFO]: Done (2,188s)! For help, type "help" or "?"
+[18:12:26] [Server thread/INFO]: Stopping server
+[18:12:26] [Server thread/INFO]: Saving players
+[18:12:26] [Server thread/INFO]: Saving worlds
+[18:12:26] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[18:12:26] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[18:12:26] [Server thread/INFO]: Saving chunks for level 'world'/The End
